@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Rocket Phone - Secure Phone and OS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* General body styling */
+        body {
+            background-color: #1d1d1d;
+            color: #eaeaea;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Navbar styling */
+        nav.navbar {
+            background-color: #0a0a0a;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #ffffff !important;
+        }
+
+        .navbar-brand:hover, .nav-link:hover {
+            color: #007bff !important;
+        }
+
+        /* Custom block background styling */
+        .bg-dark-custom {
+            background-color: #0a0a0a;
+            color: #eaeaea;
+            padding: 60px 0;
+            border-radius: 10px;
+            background-blend-mode: overlay;
+        }
+
+        /* Introduction Section */
+        #introduction {
+            background-image: url('assets/introduction-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: overlay;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .intro-text {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #eaeaea;
+            margin-top: 10px;
+        }
+
+        /* Card styling */
+        .card.bg-dark {
+            background-color: #0a0a0a;
+        }
+
+        /* Ensure text is still readable */
+        .text-white {
+            color: #eaeaea !important; /* Light gray for readability on dark background */
+        }
+
+        /* Kickstarter box */
+        .bg-primary {
+            background-color: #007bff !important;
+            border-color: #007bff !important;
+        }
+
+        /* Footer links */
+        .footer-links a {
+            color: #007bff;
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer-links a:hover {
+            color: #ffffff;
+        }
+
+        /* Flexbox for equal-height cards */
+        .d-flex.align-items-stretch .card {
+            background-color: #0a0a0a;
+            border: none;
+        }
+
+        .card-header {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .card-body {
+            font-size: 1rem;
+            color: #eaeaea;
+        }
+        .header-image {
+            background: url('assets/banner-blackrocket.png') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Black Rocket Phone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://blackrocketos.com" target="_blank">Black Rocket OS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://x.com/blackrocketnode" target="_blank">X Account</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Image -->
+    <header class="header-image text-center">
+        <div class="container">
+            <!-- Removed Title Above Image -->
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction" class="bg-dark-custom">
+        <div class="container">
+            <h2 class="section-title text-center">Introduction</h2>
+            <p class="intro-text text-center">We are thrilled to introduce Black Rocket OS and Black Rocket Phone, the ultimate secure phone and operating system that guarantees unparalleled privacy and security. In an era where data breaches and privacy concerns are rampant, we aim to provide a solution that puts you back in control of your digital life.</p>
+            <p class="intro-text text-center">Black Rocket OS is a fork of Graphene OS and it is built on its robust foundation, renowned for its security and privacy features. We've taken it a step further to deliver the best experience in secure mobile communication.</p>
+        </div>
+    </section>
+
+    <!-- Who We Are Section -->
+    <section id="who-we-are" class="bg-dark-custom">
+        <div class="container">
+            <h2 class="section-title text-center">Who We Are</h2>
+            <p class="intro-text text-center">
+                We are a team of passionate tech enthusiasts, developers, and privacy advocates from all over the world, united by our commitment to creating a safer digital world. Our mission is to provide an accessible and user-friendly solution to everyone who values their privacy and security.
+            </p>
+            <p class="intro-text text-center">
+                With years of experience in software development and cybersecurity, we have come together under the jurisdiction of Liechtenstein, through the company <strong><a href="https://intellisoftalpin.com" target="_blank" class="text-highlight">IntelliSoftAlpin</a></strong>, to create Black Rocket OS — a project that reflects our dedication and expertise.
+            </p>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="bg-dark-custom">
+        <div class="container">
+            <h2 class="section-title text-center">The Problem</h2>
+            <p class="intro-text text-center">In today’s digital age, our smartphones are treasure troves of personal information. Unfortunately, mainstream operating systems and devices are often plagued with vulnerabilities, leaving your data exposed to hackers, surveillance, and corporate snooping.</p>
+            <p class="intro-text text-center text-highlight">Privacy should not be a luxury—it should be a standard.</p>
+            <p class="intro-text text-center">This is why we are developing Black Rocket OS, to give you the freedom and peace of mind you deserve.</p>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="bg-dark-custom">
+        <div class="container">
+            <h2 class="section-title text-center">Our Solution</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4 d-flex align-items-stretch">
+                    <div class="card bg-dark text-white flex-fill">
+                        <div class="card-header text-highlight">
+                            Customizable Security Features
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Choose from a range of security features tailored to your specific needs before the phone is delivered.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 d-flex align-items-stretch">
+                    <div class="card bg-dark text-white flex-fill">
+                        <div class="card-header text-highlight">
+                            Customizable User Experience
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Personalize your phone with custom themes, wallpapers, icon packs, and interface layouts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 d-flex align-items-stretch">
+                    <div class="card bg-dark text-white flex-fill">
+                        <div class="card-header text-highlight">
+                            Pre-installed Apps and Services
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">A suite of essential apps and services ready to use right out of the box.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 d-flex align-items-stretch">
+                    <div class="card bg-dark text-white flex-fill">
+                        <div class="card-header text-highlight">
+                            Regular Security Updates
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Timely and regular updates to keep your device protected against the latest vulnerabilities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 d-flex align-items-stretch">
+                    <div class="card bg-dark text-white flex-fill">
+                        <div class="card-header text-highlight">
+                            Open Source Transparency
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Our open-source approach allows anyone to audit our code and verify our security claims.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 d-flex align-items-stretch">
+                    <div class="card bg-dark text-white flex-fill">
+                        <div class="card-header text-highlight">
+                            Privacy-Focused App Store
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">A curated app store prioritizing privacy and security.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 d-flex align-items-stretch">
+                    <div class="card bg-dark text-white flex-fill">
+                        <div class="card-header text-highlight">
+                            Secure Communication Tools
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Encrypted messaging and VoIP services pre-installed to keep your conversations private.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 d-flex align-items-stretch">
+                    <div class="card bg-dark text-white flex-fill">
+                        <div class="card-header text-highlight">
+                            Dedicated Customer Support
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Our support team is available to assist you with any questions or issues.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Us Section -->
+    <section id="join-us" class="bg-dark-custom">
+        <div class="container">
+            <h2 class="section-title text-center">Join Us on This Journey</h2>
+            <p class="cta-text text-center">We are incredibly excited to bring Black Rocket OS to life, but we can’t do it without your support. Join us on this journey to redefine mobile security and take back control of your digital life.</p>
+            <p class="cta-text text-center">Together, we can create a future where privacy is a right, not a privilege.</p>
+            <p class="text-center">Thank you for believing in Black Rocket OS!</p>
+            <p class="text-center"><strong>Stay secure,<br>The Black Rocket Team</strong></p>
+            <p class="text-center">Feel free to reach out if you have any questions or need further information. Your feedback and support are invaluable to us!</p>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Black Rocket Phone. All rights reserved.</p>
+            <p class="footer-links">
+                <a href="https://blackrocketos.com" target="_blank">Black Rocket OS</a>&nbsp;|&nbsp;&nbsp;
+                <a href="https://x.com/blackrocketnode" target="_blank">X Account</a>&nbsp;|&nbsp;&nbsp;
+                <a href="https://github.com/intellisoftalpin/" target="_blank">GitHub</a>
+            </p>
+        </div>
+
+        <div class="container my-4">
+            <a href="https://www.kickstarter.com" target="_blank" class="text-decoration-none">
+                <div class="bg-primary text-white p-4 rounded">
+                    <h5 class="mb-2">Interested in supporting us further?</h5>
+                    <p class="mb-0">Check out our Kickstarter Campaign for exclusive rewards and to help us bring Black Rocket OS to more users.</p>
+                </div>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
